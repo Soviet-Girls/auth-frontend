@@ -45,7 +45,7 @@ export const VkAuth: FC<{
   const [action, setAction] = useState<string | undefined>();
 
   useEffect(() => {
-    VK.init({ apiId: 51686565 });
+    VK.init({ apiId: 51686993 });
   }, []);
 
   useEffect(() => {
