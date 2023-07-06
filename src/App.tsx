@@ -30,7 +30,7 @@ export default function App() {
 
   const handleClick = () => {
     setLoading(true);
-    let getLink = axios.get("http://127.0.0.1:5000/login", {
+    let getLink = axios.get("https://auth.sovietgirls.su/login", {
       params: {
         expire: user?.expire,
         mid: user?.mid,
